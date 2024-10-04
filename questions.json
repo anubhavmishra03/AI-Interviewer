@@ -1,0 +1,121 @@
+[
+    {
+        "question": "Explain the difference between supervised and unsupervised learning.",
+        "answers": [
+            {
+                "response": "Supervised learning uses labeled data to train models, where the desired output is known. Unsupervised learning works with unlabeled data, and the model tries to find patterns and relationships in the data.",
+                "score": 10
+            },
+            {
+                "response": "Supervised learning works with labeled data and unsupervised with unlabeled data.",
+                "score": 7
+            },
+            {
+                "response": "Supervised learning is easier because it has labeled data.",
+                "score": 5
+            }
+        ]
+    },
+    {
+        "question": "What is overfitting in machine learning, and how can it be prevented?",
+        "answers": [
+            {
+                "response": "Overfitting occurs when a model performs well on training data but poorly on unseen data because it has learned noise and details from the training data. Techniques like cross-validation, pruning, regularization, and using simpler models can help prevent overfitting.",
+                "score": 10
+            },
+            {
+                "response": "Overfitting is when the model works well on training but fails on testing data. Regularization helps.",
+                "score": 7
+            },
+            {
+                "response": "Overfitting is a common problem but can be fixed with a bigger dataset.",
+                "score": 5
+            }
+        ]
+    },
+    {
+        "question": "What is the role of activation functions in neural networks?",
+        "answers": [
+            {
+                "response": "Activation functions introduce non-linearity into a neural network, allowing it to learn from complex patterns. Examples include ReLU, Sigmoid, and Tanh.",
+                "score": 10
+            },
+            {
+                "response": "Activation functions help neural networks learn better.",
+                "score": 6
+            },
+            {
+                "response": "They control how neurons in a neural network activate.",
+                "score": 5
+            }
+        ]
+    },
+    {
+        "question": "How do you handle missing data in a dataset?",
+        "answers": [
+            {
+                "response": "Missing data can be handled by techniques such as removing rows with missing values, imputing missing values using mean, median, or mode, or using algorithms that support missing data.",
+                "score": 10
+            },
+            {
+                "response": "I either drop missing values or fill them with the mean.",
+                "score": 7
+            },
+            {
+                "response": "I remove the missing data from the dataset.",
+                "score": 5
+            }
+        ]
+    },
+    {
+        "question": "Can you explain the concept of a confusion matrix?",
+        "answers": [
+            {
+                "response": "A confusion matrix is a table used to describe the performance of a classification model. It shows the true positives, false positives, true negatives, and false negatives, helping to understand accuracy, precision, recall, and F1 score.",
+                "score": 10
+            },
+            {
+                "response": "It’s a matrix used for evaluating classification models.",
+                "score": 7
+            },
+            {
+                "response": "It shows correct and incorrect predictions.",
+                "score": 5
+            }
+        ]
+    },
+    {
+        "question": "What is gradient descent and why is it important?",
+        "answers": [
+            {
+                "response": "Gradient descent is an optimization algorithm used to minimize the loss function in machine learning models by iteratively adjusting the model parameters in the direction of the negative gradient of the loss function.",
+                "score": 10
+            },
+            {
+                "response": "It’s a method to minimize loss in models.",
+                "score": 7
+            },
+            {
+                "response": "It’s used to improve the model by reducing errors.",
+                "score": 5
+            }
+        ]
+    },
+    {
+        "question": "What is the purpose of cross-validation in model training?",
+        "answers": [
+            {
+                "response": "Cross-validation is a technique used to assess how well a model generalizes to unseen data. It divides the dataset into multiple subsets, trains the model on some subsets, and validates it on the others, reducing the risk of overfitting.",
+                "score": 10
+            },
+            {
+                "response": "It’s a method to validate the model by splitting the data.",
+                "score": 7
+            },
+            {
+                "response": "It helps check if the model is performing well.",
+                "score": 5
+            }
+        ]
+    }
+]

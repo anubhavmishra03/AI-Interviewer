@@ -1,0 +1,2 @@
+# AI-Interviewer
+ The AI Interviewer is an intelligent system designed to conduct interviews, evaluate candidates' responses, and rank them using natural language processing (NLP). It automates the interviewing process by analyzing answers based on predefined questions stored in a JSON file. This AI-powered interviewer helps recruiters assess multiple candidates at scale with consistent and objective scoring.
